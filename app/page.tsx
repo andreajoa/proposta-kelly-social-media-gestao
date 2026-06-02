@@ -239,23 +239,31 @@ export default function Home() {
 
           <div className="bg-[#2A2522] text-white rounded-[30px] sm:rounded-[36px] p-7 sm:p-10 shadow-sm">
             <p className="uppercase tracking-[0.22em] text-[#D8C4B6] mb-4 text-xs sm:text-sm">
-              Clareza de Escopo
+              Resumo Mensal
             </p>
 
             <h2 className="text-3xl sm:text-4xl font-light mb-8">
-              O que não está incluído
+              O que Kelly receberá todos os meses
             </h2>
 
-            <ul className="space-y-4 text-white/80">
-              {notIncluded.map((item) => (
-                <li key={item}>• {item}</li>
-              ))}
+            <ul className="space-y-4 text-white/85">
+              <li>✓ Planejamento estratégico de conteúdo</li>
+              <li>✓ Posts para o feed com design e legenda</li>
+              <li>✓ Reels estratégicos para alcance e visibilidade</li>
+              <li>✓ Stories para relacionamento e divulgação</li>
+              <li>✓ Vídeos com IA para divulgar a ONG e o livro</li>
+              <li>✓ Landing page para captação de leads</li>
+              <li>✓ Divulgação da missão, projetos e campanhas</li>
+              <li>✓ Divulgação estratégica do livro</li>
+              <li>✓ Apoio no impulsionamento pelo Instagram</li>
+              <li>✓ Organização da comunicação mensal</li>
             </ul>
 
-            <p className="mt-8 text-white/70 leading-7">
-              O serviço contratado é gestão de mídia social, conteúdo, posicionamento
-              e captação. O impulsionamento será feito pelo Instagram, mas o valor
-              pago à plataforma para anunciar é separado dos US$300/mês.
+            <p className="mt-8 text-white/75 leading-7">
+              A proposta entrega uma estrutura contínua de presença digital,
+              conteúdo, posicionamento e captação. O objetivo é fazer o Instagram
+              trabalhar como uma ferramenta de crescimento para a ONG, para o livro
+              e para a imagem pública da Kelly.
             </p>
           </div>
         </div>
